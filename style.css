@@ -277,9 +277,6 @@ header nav.menu-desktop ul li {
   padding: 0 2rem;
 }
 
-header .menu-mobile {
-  display: none;
-}
 
 /* JS MENU MOBILE */
 .menu-mobile.abrir-menu {
