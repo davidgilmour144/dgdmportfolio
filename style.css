@@ -528,13 +528,18 @@ section.portfolio .container {
   font-size: 1.75rem;
   font-weight: 600;
   color: var(--color-white);
-  background-color: var(--color-black);
+  background-color: #06131db4;
   opacity: 0;
   transition: 0.5s;
 }
 
 .overlay-portfolio:hover {
   opacity: 1;
+}
+
+.portfolio h3 {
+  margin: 1rem;
+  font-size: 1.50rem;
 }
 
 /* ESTILO DO FORMULARIO */
