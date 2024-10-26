@@ -206,7 +206,7 @@ ul {
 
 /* ESTILO BOTÕES */
 
-.btn-contato button {
+.btn-contato button, .more-portfolio button {
   padding: 0.5rem 2rem;
   font-size: 1rem;
   font-weight: 500;
@@ -481,7 +481,9 @@ section.portfolio {
 }
 
 section.portfolio .container {
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
   gap: 1.25rem;
 }
 
